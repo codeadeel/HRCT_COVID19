@@ -304,7 +304,7 @@ class Ui_HRCT(object):
 
     def retranslateUi(self, HRCT):
         _translate = QtCore.QCoreApplication.translate
-        HRCT.setWindowTitle(_translate("HRCT", "Dialog"))
+        HRCT.setWindowTitle(_translate("HRCT", "HRCT"))
         self.instruct1.setText(_translate("HRCT", "Please Select From the Following Samples"))
         self.loader1.setText(_translate("HRCT", "Load Sample"))
         self.reset1.setText(_translate("HRCT", "Reset"))
