@@ -2,7 +2,7 @@
 
 ### Note: ***THIS REPOSITORY IS CURRENTLY UNDER DEVELOPMENT***
 
-For seup in python, please install requirements form [requirements.txt][req_addr]. After that, tool can be started using following command:
+For setup in python, please install requirements form [requirements.txt][req_addr]. After that, tool can be started using following command:
 
 ```bash
 python3 ./hrct.py
