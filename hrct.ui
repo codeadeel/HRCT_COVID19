@@ -71,32 +71,6 @@
     <string>Reset</string>
    </property>
   </widget>
-  <widget class="QLabel" name="ggo_label">
-   <property name="geometry">
-    <rect>
-     <x>510</x>
-     <y>160</y>
-     <width>141</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Ground Glass Opacity:</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="ggo_value">
-   <property name="geometry">
-    <rect>
-     <x>660</x>
-     <y>160</y>
-     <width>161</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Null</string>
-   </property>
-  </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
@@ -108,7 +82,7 @@
    </property>
    <layout class="QVBoxLayout" name="plotlayout"/>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -156,7 +130,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -178,7 +152,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -204,7 +178,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -225,6 +199,58 @@
      <widget class="QSlider" name="slider1">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>140</y>
+     <width>251</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="ggolabel_layout">
+    <item>
+     <widget class="QLabel" name="cggo_label">
+      <property name="text">
+       <string>Current Sample Ground Glass Opacity:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ggo_label">
+      <property name="text">
+       <string>Ground Glass Opacity:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>140</y>
+     <width>131</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="ggovalue_layout">
+    <item>
+     <widget class="QLabel" name="cggo_value">
+      <property name="text">
+       <string>Null</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ggo_value">
+      <property name="text">
+       <string>Null</string>
       </property>
      </widget>
     </item>
