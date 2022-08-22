@@ -181,13 +181,20 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>510</x>
-     <y>140</y>
+     <x>530</x>
+     <y>120</y>
      <width>251</width>
-     <height>38</height>
+     <height>59</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="ggolabel_layout">
+    <item>
+     <widget class="QLabel" name="corad_label">
+      <property name="text">
+       <string>CORADS Score:</string>
+      </property>
+     </widget>
+    </item>
     <item>
      <widget class="QLabel" name="cggo_label">
       <property name="text">
@@ -207,13 +214,20 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>770</x>
-     <y>140</y>
+     <x>800</x>
+     <y>120</y>
      <width>131</width>
-     <height>38</height>
+     <height>59</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="ggovalue_layout">
+    <item>
+     <widget class="QLabel" name="corad_value">
+      <property name="text">
+       <string>Null</string>
+      </property>
+     </widget>
+    </item>
     <item>
      <widget class="QLabel" name="cggo_value">
       <property name="text">
@@ -230,7 +244,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>11</x>
@@ -262,6 +276,86 @@
      <widget class="QSlider" name="slider1">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="Line" name="div2">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>10</y>
+     <width>16</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>10</y>
+     <width>16</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>10</y>
+     <width>123</width>
+     <height>103</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="corad_scale">
+    <item>
+     <widget class="QLabel" name="corad_header">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CORADS Scale</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="corad_mild">
+      <property name="text">
+       <string>Mild ( 1 - 10 )</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="corad_moderate">
+      <property name="text">
+       <string>Moderate ( 11 - 20 )</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="corad_severe">
+      <property name="text">
+       <string>Severe ( 21 - 30 )</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="corad_critical">
+      <property name="text">
+       <string>Critical ( 31 - 40 )</string>
       </property>
      </widget>
     </item>
