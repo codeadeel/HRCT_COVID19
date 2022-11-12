@@ -1,6 +1,6 @@
 # COVID-19 Detection using High Resolution Tomography
 
-### Note: ***THIS REPOSITORY IS CURRENTLY UNDER DEVELOPMENT***
+### Note: ***THIS REPOSITORY HAS BEEN DEPRECIATED***
 
 For setup in python, please install requirements form [requirements.txt][req_addr]. After that, tool can be started using following command:
 
